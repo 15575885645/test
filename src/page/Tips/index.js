@@ -73,7 +73,7 @@ class Tips extends React.Component {
                 }
             </div>
             <div className="Page">
-                <Paga count={SourceData.length + 180} hanldeClickChange={this.clickPagniation} limit={10}></Paga>
+                <Paga count={SourceData.length} hanldeClickChange={this.clickPagniation} limit={10}></Paga>
             </div>
         </div >
     }
