@@ -1,0 +1,153 @@
+.Tips {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: rgba(244, 244, 244, 1);
+    flex-direction: column;
+}
+
+.Tips_main {
+    min-width: 1344px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background: white;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    width: 100%;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 16px;
+    color: rgba(34, 34, 34, 1);
+    opacity: 1;
+    border-bottom: 1px solid rgba(223, 225, 232, 1);
+}
+
+.li_cricle {
+    width: 40px;
+    height: 40px;
+    background: rgba(240, 240, 240, 1);
+    border-radius: 50%;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.li_title_1 {
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgba(34, 34, 34, 1);
+    opacity: 1;
+}
+
+.li_left {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.li_info {
+    margin-top: 22px;
+    display: flex;
+}
+
+.li_info p {
+    margin-left: 16px;
+}
+
+.li_number {
+    margin-top: 16px;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 21px;
+    color: rgba(224, 118, 40, 1);
+    opacity: 1;
+}
+
+.li_url {
+    margin-bottom: 22px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(153, 153, 153, 1);
+    opacity: 1;
+}
+
+.li_date {
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(153, 153, 153, 1);
+    opacity: 1;
+    margin-left: 46px;
+    margin-right: 12px;
+}
+
+.li_date2 {
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(153, 153, 153, 1);
+    opacity: 1;
+    margin-right: 12px;
+}
+
+.data_li {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    margin-left: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(223, 225, 232, 1);
+}
+
+.Page {
+    height: 64px;
+    line-height: 64px;
+    background: white;
+    width: 1344px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 28px;
+    padding-right: 32px;
+}
+
+.li_user {
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+    opacity: 1;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(153, 153, 153, 1);
+    opacity: 1;
+}
+
+.li_message {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(224, 118, 40, 1);
+    opacity: 1;
+}

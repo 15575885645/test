@@ -1,0 +1,21 @@
+.hover {
+    cursor: pointer;
+}
+
+.hover_none {
+    cursor: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.display_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+*{
+    box-sizing:border-box;
+}
