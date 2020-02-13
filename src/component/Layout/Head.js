@@ -1,7 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import Logo from '../assets/logo.png'
-import "./header.css"
+import Logo from '../../assets/logo.png'
 class Head extends React.Component {
     constructor(props) {
         super(props);

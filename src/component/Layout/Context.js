@@ -1,10 +1,10 @@
 import React from 'react'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Head from './Head'
-import Home from '../page/Home/index'
-import News from '../page/News/index'
-import Tips from '../page/Tips/index'
-import Footer from '../component/footer'
+import Home from '../../page/Home/index'
+import News from '../../page/News/index'
+import Tips from '../../page/Tips/index'
+import Footer from './footer'
 class Context extends React.Component {
     render() {
         return <Router>

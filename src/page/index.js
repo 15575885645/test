@@ -1,6 +1,6 @@
 import React from 'react'
-import Context from '../component/Context'
-import Footer from '../component/footer'
+import Context from '../component/Layout/Context'
+ 
 export default class extends React.Component {
     render() {
         return <>
